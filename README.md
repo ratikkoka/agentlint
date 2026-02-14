@@ -15,8 +15,8 @@ Static AST checker for AI agent accessibility rules on JSX and HTML elements.
     <img src="https://img.shields.io/npm/l/agentlint.svg"
          alt="license" />
   </a>
-  <a href="https://coveralls.io/github/ratikkoka/agentlint?branch=main">
-    <img src="https://coveralls.io/repos/github/ratikkoka/agentlint/badge.svg?branch=main"
+  <a href="https://codecov.io/gh/ratikkoka/agentlint">
+    <img src="https://codecov.io/gh/ratikkoka/agentlint/branch/main/graph/badge.svg"
          alt="Coverage Status" />
   </a>
   <a href="https://npmjs.org/package/eslint-plugin-agentlint">
