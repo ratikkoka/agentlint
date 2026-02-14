@@ -34,7 +34,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ratikkoka/eslint-plugin-agentlint"
+    "url": "https://github.com/ratikkoka/agentlint"
   },
   "scripts": {
     "build": "tsup",
