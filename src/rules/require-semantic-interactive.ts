@@ -4,7 +4,7 @@ import { INTERACTIVE_HANDLERS } from "../utils/constants";
 
 const createRule = ESLintUtils.RuleCreator(
   (name) =>
-    `https://github.com/ratikkoka/eslint-plugin-agentlint/blob/main/docs/rules/${name}.md`
+    `https://github.com/ratikkoka/agentlint/blob/main/docs/rules/${name}.md`
 );
 
 const NON_SEMANTIC_ELEMENTS = ["div", "span", "li", "td", "p"];

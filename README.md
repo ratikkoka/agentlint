@@ -3,7 +3,7 @@
 Static AST checker for AI agent accessibility rules on JSX and HTML elements.
 
 <p align="center">
-  <a href="https://github.com/ratikkoka/eslint-plugin-agentlint/actions">
+  <a href="https://github.com/ratikkoka/agentlint/actions">
     <img src="https://img.shields.io/github/check-runs/ratikkoka/eslint-plugin-agentlint/main"
          alt="CI status" />
   </a>
@@ -11,7 +11,7 @@ Static AST checker for AI agent accessibility rules on JSX and HTML elements.
     <img src="https://img.shields.io/npm/v/eslint-plugin-agentlint.svg"
          alt="npm version" />
   </a>
-  <a href="https://github.com/ratikkoka/eslint-plugin-agentlint/blob/HEAD/LICENSE">
+  <a href="https://github.com/ratikkoka/agentlint/blob/HEAD/LICENSE">
     <img src="https://img.shields.io/npm/l/eslint-plugin-agentlint.svg"
          alt="license" />
   </a>

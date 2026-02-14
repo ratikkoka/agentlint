@@ -9,7 +9,7 @@ import {
 
 const createRule = ESLintUtils.RuleCreator(
   (name) =>
-    `https://github.com/ratikkoka/eslint-plugin-agentlint/blob/main/docs/rules/${name}.md`
+    `https://github.com/ratikkoka/agentlint/blob/main/docs/rules/${name}.md`
 );
 
 export default createRule({

@@ -147,7 +147,7 @@ var MODAL_INDICATORS = {
 
 // src/rules/require-stable-selector.ts
 var createRule = import_utils.ESLintUtils.RuleCreator(
-  (name) => `https://github.com/ratikkoka/eslint-plugin-agentlint/blob/main/docs/rules/${name}.md`
+  (name) => `https://github.com/ratikkoka/agentlint/blob/main/docs/rules/${name}.md`
 );
 var require_stable_selector_default = createRule({
   name: "require-stable-selector",
@@ -219,7 +219,7 @@ var require_stable_selector_default = createRule({
 // src/rules/no-hover-only-action.ts
 var import_utils2 = require("@typescript-eslint/utils");
 var createRule2 = import_utils2.ESLintUtils.RuleCreator(
-  (name) => `https://github.com/ratikkoka/eslint-plugin-agentlint/blob/main/docs/rules/${name}.md`
+  (name) => `https://github.com/ratikkoka/agentlint/blob/main/docs/rules/${name}.md`
 );
 var no_hover_only_action_default = createRule2({
   name: "no-hover-only-action",
@@ -268,7 +268,7 @@ var no_hover_only_action_default = createRule2({
 // src/rules/no-css-only-state.ts
 var import_utils3 = require("@typescript-eslint/utils");
 var createRule3 = import_utils3.ESLintUtils.RuleCreator(
-  (name) => `https://github.com/ratikkoka/eslint-plugin-agentlint/blob/main/docs/rules/${name}.md`
+  (name) => `https://github.com/ratikkoka/agentlint/blob/main/docs/rules/${name}.md`
 );
 var no_css_only_state_default = createRule3({
   name: "no-css-only-state",
@@ -318,7 +318,7 @@ var no_css_only_state_default = createRule3({
 // src/rules/require-semantic-interactive.ts
 var import_utils4 = require("@typescript-eslint/utils");
 var createRule4 = import_utils4.ESLintUtils.RuleCreator(
-  (name) => `https://github.com/ratikkoka/eslint-plugin-agentlint/blob/main/docs/rules/${name}.md`
+  (name) => `https://github.com/ratikkoka/agentlint/blob/main/docs/rules/${name}.md`
 );
 var NON_SEMANTIC_ELEMENTS = ["div", "span", "li", "td", "p"];
 var require_semantic_interactive_default = createRule4({
@@ -380,7 +380,7 @@ var require_semantic_interactive_default = createRule4({
 // src/rules/no-dynamic-position-instability.ts
 var import_utils5 = require("@typescript-eslint/utils");
 var createRule5 = import_utils5.ESLintUtils.RuleCreator(
-  (name) => `https://github.com/ratikkoka/eslint-plugin-agentlint/blob/main/docs/rules/${name}.md`
+  (name) => `https://github.com/ratikkoka/agentlint/blob/main/docs/rules/${name}.md`
 );
 var no_dynamic_position_instability_default = createRule5({
   name: "no-dynamic-position-instability",
@@ -432,7 +432,7 @@ var no_dynamic_position_instability_default = createRule5({
 // src/rules/require-action-context.ts
 var import_utils6 = require("@typescript-eslint/utils");
 var createRule6 = import_utils6.ESLintUtils.RuleCreator(
-  (name) => `https://github.com/ratikkoka/eslint-plugin-agentlint/blob/main/docs/rules/${name}.md`
+  (name) => `https://github.com/ratikkoka/agentlint/blob/main/docs/rules/${name}.md`
 );
 var require_action_context_default = createRule6({
   name: "require-action-context",
@@ -478,7 +478,7 @@ var require_action_context_default = createRule6({
 // src/rules/require-modal-dismiss.ts
 var import_utils7 = require("@typescript-eslint/utils");
 var createRule7 = import_utils7.ESLintUtils.RuleCreator(
-  (name) => `https://github.com/ratikkoka/eslint-plugin-agentlint/blob/main/docs/rules/${name}.md`
+  (name) => `https://github.com/ratikkoka/agentlint/blob/main/docs/rules/${name}.md`
 );
 var require_modal_dismiss_default = createRule7({
   name: "require-modal-dismiss",
