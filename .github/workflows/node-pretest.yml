@@ -1,10 +1,6 @@
-name: CI
+name: 'Tests: pretest'
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+on: [pull_request, push]
 
 permissions:
   contents: read
@@ -18,8 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: npm
-      - run: npm ci
+      - run: npm install
       - run: npm run lint
 
   typecheck:
@@ -30,28 +25,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: npm
-      - run: npm ci
+      - run: npm install
       - run: npm run typecheck
-
-  test:
-    name: 'Test: Node.js ${{ matrix.node-version }}'
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        node-version:
-          - 18
-          - 20
-          - 22
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: npm
-      - run: npm ci
-      - run: npm run test
 
   build:
     name: Build
@@ -61,6 +36,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: npm
-      - run: npm ci
+      - run: npm install
       - run: npm run build

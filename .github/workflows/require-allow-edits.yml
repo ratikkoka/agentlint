@@ -1,0 +1,13 @@
+name: Require "Allow Edits"
+
+on: [pull_request_target]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  _:
+    name: "Require "Allow Edits""
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ljharb/require-allow-edits@main
