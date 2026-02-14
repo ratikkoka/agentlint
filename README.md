@@ -4,19 +4,19 @@ Static AST checker for AI agent accessibility rules on JSX and HTML elements.
 
 <p align="center">
   <a href="https://github.com/ratikkoka/agentlint/actions">
-    <img src="https://img.shields.io/github/check-runs/ratikkoka/eslint-plugin-agentlint/main"
+    <img src="https://img.shields.io/github/check-runs/ratikkoka/agentlint/main"
          alt="CI status" />
   </a>
   <a href="https://npmjs.org/package/eslint-plugin-agentlint">
     <img src="https://img.shields.io/npm/v/eslint-plugin-agentlint.svg"
          alt="npm version" />
   </a>
-  <a href="https://github.com/ratikkoka/agentlint/blob/HEAD/LICENSE">
-    <img src="https://img.shields.io/npm/l/eslint-plugin-agentlint.svg"
+  <a href="https://github.com/ratikkoka/agentlint/blob/HEAD/LICENSE.md">
+    <img src="https://img.shields.io/npm/l/agentlint.svg"
          alt="license" />
   </a>
-  <a href="https://coveralls.io/github/ratikkoka/eslint-plugin-agentlint?branch=main">
-    <img src="https://coveralls.io/repos/github/ratikkoka/eslint-plugin-agentlint/badge.svg?branch=main"
+  <a href="https://coveralls.io/github/ratikkoka/agentlint?branch=main">
+    <img src="https://coveralls.io/repos/github/ratikkoka/agentlint/badge.svg?branch=main"
          alt="Coverage Status" />
   </a>
   <a href="https://npmjs.org/package/eslint-plugin-agentlint">
