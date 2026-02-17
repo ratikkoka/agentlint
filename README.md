@@ -23,6 +23,10 @@ Static AST checker for AI agent accessibility rules on JSX and HTML elements.
     <img src="https://img.shields.io/npm/dt/eslint-plugin-agentlint.svg"
          alt="Total npm downloads" />
   </a>
+  <a href="https://dev.to/ratikkoka/your-ui-is-invisible-to-ai-agents-heres-how-to-fix-it-1ib3">
+    <img src="https://img.shields.io/badge/dev.to-launch%20post-0A0A0A?logo=devdotto"
+         alt="Blog post" />
+  </a>
 </p>
 
 ## Why?
